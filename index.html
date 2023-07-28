@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="myunzzhang">
+    <meta name="description" content="반응형 사이트 연습">
+    <meta name="keywords" content="반응형사이트, 웹퍼블리셔, 웹접근성, HTML5">
+    <title>반응형 사이트 만들기</title>
+    <!-- ----------파비콘---------------- -->
+    <link rel="shortcut icon"
+        href="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fthumbnail7.coupangcdn.com%2Fthumbnails%2Fremote%2F492x492ex%2Fimage%2Frs_quotation_api%2Fysrimegn%2F61c98841c46b4834becfb17ae6097027.jpg&blockId=2618ba81-a66c-4218-aff7-0e1ca5ba2b51"
+        type="image/x-icon">
+    <!-- ---------------css-------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-thumbnail.min.css"/>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <div class="header_menu">
+                    <a href="https://www.w3schools.com/" target="_blank">Blog</a>
+                    <a href="https://www.w3schools.com/" target="_blank">Instargram</a>
+                    <a href="https://www.w3schools.com/" target="_blank">GreenArt</a>
+                </div> <!-- //header_menu -->
+
+                <div class="header_tit">
+                    <h1>Professional Web Publish</h1><br>
+                    <a href="#">GreenArt.co.kr</a>
+                </div> <!-- //header_tit -->
+
+                <div class="header_icon">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                                <span>Github</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instargram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter-square"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- //header_icon -->
+            </div> <!-- //header -->
+        </div> <!-- //container -->
+    </header>
+    <!-- ---------------//header--------------->
+
+    <!-- ---------------nav--------------->
+    <nav id="nav">
+        <div class="container">
+            <div class="row">
+                <div class="nav clearfix">
+                    <div>
+                        <h3>HTML Reference</h3>
+                        <ul>
+                            <li><a href="#">HTML (태그)Tag</a></li>
+                            <li><a href="#">블록 요소/인라인 요소</a></li>
+                            <li><a href="#">DTD 선언</a></li>
+                            <li><a href="#">언어 속성 설정</a></li>
+                            <li><a href="#">HTML &lt;title&gt;</a></li>
+                            <li><a href="#">HTML &lt;meta&gt;</a></li>
+                            <li><a href="#">특수문자</a></li>
+                            <li><a href="#">하이퍼 링크</a></li>
+                            <li><a href="#">HTML &lt;style&gt;</a></li>
+                            <li><a href="#">HTML &lt;html&gt;</a></li>
+                            <li><a href="#">HTML &lt;head&gt;</a></li>
+                            <li><a href="#">HTML &lt;div&gt;</a></li>
+                            <li><a href="#">HTML &lt;colgroup&gt;</a></li>
+                            <li><a href="#">HTML &lt;caption&gt;</a></li>
+                        </ul>
+                    </div> <!-- //HTML Reference -->
+                    <div>
+                        <h3>CSS Reference</h3>
+                        <ul>
+                            <li><a href="#">CSS 선택자</a></li>
+                            <li><a href="#">CSS 단위</a></li>
+                            <li><a href="#">CSS 색상</a></li>
+                            <li><a href="#">CSS 선언 방법</a></li>
+                            <li><a href="#">상대주소와 절대주소</a></li>
+                            <li><a href="#">CSS float</a></li>
+                            <li><a href="#">이미지 표현 방법</a></li>
+                            <li><a href="#">이미지 스프라이드</a></li>
+                            <li><a href="#">IR 효과</a></li>
+                            <li><a href="#">이미지 최적화</a></li>
+                            <li><a href="#">background-color</a></li>
+                            <li><a href="#">border-style</a></li>
+                            <li><a href="#">font-size</a></li>
+                            <li><a href="#">text-align</a></li>
+                        </ul>
+                    </div> <!-- //CSS Reference -->
+                    <div>
+                        <h3>Webstandard</h3>
+                        <ul>
+                            <li><a href="#">웹표준</a></li>
+                            <li><a href="#">웹접근성</a></li>
+                            <li><a href="#">W3C</a></li>
+                            <li><a href="#">웹 접근성 연구소</a></li>
+                            <li><a href="#">네이버 널리</a></li>
+                            <li><a href="#">다음 다룸</a></li>
+                            <li><a href="#">webstandard</a></li>
+                        </ul> <!-- //Webstandard -->
+                    </div>
+                </div>
+            </div> <!-- //row 패딩조절 -->
+        </div> <!-- //container -->
+    </nav>
+    <!-- ---------------//nav--------------->
+
+    <!-- ---------------title--------------->
+    <div id="title">
+        <div class="container">
+            <div class="tit">
+                <h2>&ldquo; 나는 멋쟁이 김현정이다! &rdquo;</h2>
+                <a href="#" class="btn">
+                    <i class="fas fa-caret-down"></i>
+                    <span class="ir">전체메뉴</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------//title--------------->
+
+    <!-- ---------------main--------------->
+    <main>
+        <div id="contents">
+            <div class="container">
+                <h2 class="ir">반응형 사이트 컨텐츠</h2>
+                <section id="cont_left">
+                    <h3 class="ir">메뉴 및 게시판 컨텐츠 영역</h3>
+                    <article class="colum col1">
+                        <h4 class="col_tit">Menu</h4>
+                        <p class="col_desc">Box-shadow를 이용한 Mousehover 효과 메뉴입니다.</p>
+                        <!-- ------menu ------->
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Cafe<i class="fas fa-angle-double-right"></i></a></li>
+                                <li><a href="#">Tutorial<i class="fas fa-angle-double-right"></i></a></li>
+                                <li><a href="#">Website<i class="fas fa-angle-double-right"></i></a></li>
+                                <li><a href="#">Reference<i class="fas fa-angle-double-right"></i></a></li>
+                                <li><a href="#">Css3<i class="fas fa-angle-double-right"></i></a></li>
+                                <li><a href="#">HTML5<i class="fas fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </article> <!-- //col1 -->
+                    <article class="colum col2">
+                        <h4 class="col_tit">Notice</h4>
+                        <p class="col_desc">한줄 또는 2줄이상 말줄임말 효과입니다.</p>
+                        <!-- 게시판1 -->
+                        <div class="notice1">
+                            <h5>Notice1</h5>
+                            <ul>
+                                <li><a href="#">
+                                    이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다
+                                </a></li>
+                                <li><a href="#">
+                                    이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다
+                                </a></li>
+                                <li><a href="#">
+                                    이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다
+                                </a></li>
+                                <li><a href="#">
+                                    이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다 이 줄은 한줄효과 입니다
+                                </a></li>
+                            </ul>
+                            <a href="#" class="more" title="더보기">More <i class="fas fa-plus-circle"></i></a>
+                        </div>
+                        <!-- 게시판2 -->
+                        <div class="notice2">
+                            <h5>Notice2</h5>
+                            <ul>
+                                <li><a href="#">이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다. 이 줄은 두줄 효과입니다.</a></li>
+                            </ul>
+                            <a href="#" class="more" title="더보기">More <i class="fas fa-plus-circle"></i></a>
+                        </div>
+                    </article> <!-- //col2 -->
+                    <article class="colum col3">
+                        <h4 class="col_tit">해상도</h4>
+                        <p class="col_desc">해상도에 따른 이미지 적용하는 내용입니다.</p>
+                        <!-- 해상도 상용방법 : 크기가 다른 이미지를 적용 -->
+                        <div class="blog1">
+                            <h5 class="ir">image1</h5>
+                            <figure>
+                                <img src="img/blog4_@1.jpg" 
+                                srcset="img/blog4_@1.jpg 1x, img/blog4_@2.jpg 2x, img/blog4_@3.jpg 3x"
+                                alt="반응형img">
+                            </figure>
+                        </div>
+                    </article> <!-- //col3 -->
+                </section> <!-- //cont_left -->
+
+                <section id="cont_center">
+                    <article class="colum col4">
+                        <h4 class="col_tit">Slick</h4>
+                        <p class="col_desc">Slick.js를 이용한 Image Slide 효과입니다.</p>
+                        <!-- 이미지슬라이드 -->
+                        <div class="slider">
+                            <div>
+                                <figure>
+                                    <div><img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124883_727.jpg" alt="이미지"></div>
+                                    <figcaption>
+                                        <em>Responsive Site</em>
+                                        <span>슬라이더 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <div><img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124882_727.jpg" alt="이미지"></div>
+                                    <figcaption>
+                                        <em>Responsive Site</em>
+                                        <span>슬라이더 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span>
+                                    </figcaption>
+                                </figure>
+                                
+                            </div>
+                            <div>
+                                <figure>
+                                    <div><img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124881_727.jpg" alt="이미지"></div>
+                                    <figcaption>
+                                        <em>Responsive Site</em>
+                                        <span>슬라이더 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                          </div>
+                    </article> <!-- //col4 -->
+                    <article class="colum col5">
+                        <h4 class="col_tit">Filter Effect</h4>
+                        <p class="col_desc">light Gallary를 이용한 슬라이드 효과입니다.</p>
+                        <div id="lightgallery" class="square clearfix">
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124944_727.jpg">
+                                <img alt="img1" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124942_727.jpg">
+                                <em>blur</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124940_727.jpg">
+                                <img alt="img2" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124884_727.jpg">
+                                <em>brightness</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124889_727.jpg">
+                                <img alt="img3" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124890_727.jpg">
+                                <em>contrast</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124888_727.jpg">
+                                <img alt="img4" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124885_727.jpg">
+                                <em>grayscale</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124943_727.jpg">
+                                <img alt="img5" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78076/78076124941_727.jpg">
+                                <em>hue-rotate</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123516_727.jpg">
+                                <img alt="img6" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123517_727.jpg">
+                                <em>invert</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123523_727.jpg">
+                                <img alt="img7" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123524_727.jpg">
+                                <em>opacity</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123520_727.jpg">
+                                <img alt="img8" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123521_727.jpg">
+                                <em>saturate</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123519_727.jpg">
+                                <img alt="img9" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123518_727.jpg">
+                                <em>sepia</em>
+                            </a>
+                            <a href="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123522_727.jpg">
+                                <img alt="img10" src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77998/77998123515_727.jpg">
+                                <em>Mix</em>
+                            </a>
+                        </div>
+                        <!-- //light Gallary -->
+                    </article> <!-- //col5 -->
+                    <article class="colum col6">
+                        <h4 class="col_tit">Viedo</h4>
+                        <p class="col_desc">Video 영역입니다.</p>
+                        <!-- 유튜브 -->
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRD2pqmHuK0?start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </article> <!-- //col6 -->
+                </section> <!-- //cont_center -->
+
+                <section id="cont_right">
+                    <article class="colum col7">
+                        <h4 class="col_tit">Effect1</h4>
+                        <p class="col_desc">CSS3의 transform을 이용한 Mousehover 효과 입니다.</p>
+                        
+                        <!-- card -->
+                        <div class="card">
+                            <figure class="front">
+                                <img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78586/78586131748_727.jpg" alt="이미지1">
+                            </figure>
+                            <div class="back">
+                                <img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78586/78586131747_727.jpg" alt="이미지1">
+                            </div>
+                        </div>
+                    </article> <!-- //col7 -->
+                    <article class="colum col8">
+                        <h4 class="col_tit">Effect2</h4>
+                        <p class="col_desc">CSS3의 transform을 이용한 Mousehover 효과입니다.</p>
+                        <!-- card2 -->
+                        <div class="card2">
+                            <figure class="front">
+                                <img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000076/76828/76828151034_727.jpg" alt="이미지">
+                                <figcaption><h3>Love Letter</h3></figcaption>
+                            </figure>
+
+                            <figure class="back">
+                                <img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000085/85591/85591199091_727.jpg" alt="이미지">
+                                <figcaption><h3>ラブレタㅡ</h3></figcaption>
+                            </figure>
+                        </div>
+                        <!-- // card2 -->
+                    </article> <!-- //col8 -->
+                    <article class="colum col9">
+                        <h4 class="col_tit">Effect3</h4>
+                        <p class="col_desc">CSS3의 transform을 이용한 Mousehover 효과입니다.</p>
+                        <!-- card3 -->
+                        <div class="card3">
+                            <figure>
+                                <img src="https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000083/83963/83963186799_727.jpg" alt="이미지">
+                                <figcaption>
+                                    <h3>화양연화 <em>花樣年華</em></h3>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- // card3 -->
+                    </article> <!-- //col9 -->
+                </section> <!-- //cont_right -->
+            </div> <!-- //container -->
+        </div> <!-- //contents -->
+    </main>
+    <!-- ---------------//main--------------->
+
+    <!-- ---------------script--------------->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
